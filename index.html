@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alice in Wonderland - E-Book</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Small intro-only tweaks -->
+  <style>
+    .hero {
+      background: #fffaf1;
+      border: 1px solid #eadbc2;
+      padding: 2rem 1.5rem;
+      border-radius: 14px;
+      text-align: center;
+    }
+    .hero img {
+      max-width: 280px;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    }
+    .cta {
+      display: inline-block;
+      margin-top: .75rem;
+      padding: .6rem 1rem;
+      border-radius: 999px;
+      background: var(--ink);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .cta:hover { background: #0b4a52; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">Alice's Adventures in Wonderland</h1>
+      <nav class="top-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="chapter1.html">Chapter 1</a>
+        <a href="chapter2.html">Chapter 2</a>
+        <a href="chapter3.html">Chapter 3</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h2>Start Your Adventure</h2>
+      <p>This simple e-book includes Chapters 1 to 3 from the classic story by Lewis Carroll. Typography follows the course readability rules, with a comfortable line length and line height for long reading. Use the navigation to jump between chapters, or click the button below to begin at the start.</p>
+      <img src="images/alice_1.jpg" alt="The White Rabbit checking his pocket watch" />
+      <a class="cta" href="chapter1.html">Start reading</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 Gwyndolyn Severson. Text source: Library of Congress. Images: public domain.</p>
+      <p>Fonts: Playfair Display and Merriweather from Google Fonts.</p>
+    </div>
+  </footer>
+</body>
+</html>
